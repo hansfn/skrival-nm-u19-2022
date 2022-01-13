@@ -4,4 +4,4 @@ This project used [drupal-composer/drupal-project](https://github.com/drupal-com
 
 The [website](https://molde2022.u19nm.no/) was built with [Drupal](https://www.drupal.org/) 9 using the default theme. No effort was put into the design.
 
-*The site was created for [SK Rival](https://rivalsport.no/) volleyball group.*
+*The site was created for the [SK Rival](https://rivalsport.no/) volleyball group.*
