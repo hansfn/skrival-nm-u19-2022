@@ -1,0 +1,22 @@
+uuid: 37d442dc-8574-477d-a520-73bc072cc9f5
+langcode: nb
+status: true
+dependencies:
+  module:
+    - node
+id: team
+label: Lag
+type: 'canonical_entities:node'
+pattern: 'lag/[node:title]'
+selection_criteria:
+  25194d49-6e46-4ed6-9d66-851c3485f547:
+    id: node_type
+    negate: false
+    uuid: 25194d49-6e46-4ed6-9d66-851c3485f547
+    context_mapping:
+      node: node
+    bundles:
+      team: team
+selection_logic: and
+weight: -5
+relationships: {  }
