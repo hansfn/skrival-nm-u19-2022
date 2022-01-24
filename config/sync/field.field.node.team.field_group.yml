@@ -1,0 +1,21 @@
+uuid: 5ea05897-db9c-429a-b1c3-52a03bff7f7e
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_group
+    - node.type.team
+  module:
+    - options
+id: node.team.field_group
+field_name: field_group
+entity_type: node
+bundle: team
+label: Pulje
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

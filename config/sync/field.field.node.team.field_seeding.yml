@@ -1,0 +1,23 @@
+uuid: 05ddeb31-db51-4057-8d2e-9fe85e6c2b44
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_seeding
+    - node.type.team
+id: node.team.field_seeding
+field_name: field_seeding
+entity_type: node
+bundle: team
+label: Seeding
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: 16
+  prefix: ''
+  suffix: ''
+field_type: integer

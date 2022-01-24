@@ -1,0 +1,21 @@
+uuid: 034e69ee-4abc-4a01-80eb-a3d681943e09
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_referee_level
+    - node.type.team
+  module:
+    - options
+id: node.team.field_referee_level
+field_name: field_referee_level
+entity_type: node
+bundle: team
+label: Dommergrad
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

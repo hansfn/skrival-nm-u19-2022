@@ -1,0 +1,19 @@
+uuid: c513047d-3f47-4e14-b6d3-6fb6268ebe8c
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_team_leader
+    - node.type.team
+id: node.team.field_team_leader
+field_name: field_team_leader
+entity_type: node
+bundle: team
+label: Lagleder
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,24 @@
+uuid: 270efc64-8e5d-4867-96f8-5d8b171c9dba
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_former_results
+    - node.type.team
+  module:
+    - text
+id: node.team.field_former_results
+field_name: field_former_results
+entity_type: node
+bundle: team
+label: 'Tidligere resultat'
+description: "Tidligere resultat i U19 NM som ei liste med \"årstall - plassering\" sortert med de nyeste resultatene først.\r\n\r\nHvis laget ikke har deltatt tidligere, så bør feltet være tomt."
+required: false
+translatable: false
+default_value:
+  -
+    value: "<ul>\r\n\t<li>YYYY - 1. plass</li>\r\n\t<li>...</li>\r\n</ul>\r\n"
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text_long

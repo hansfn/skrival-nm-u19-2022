@@ -1,0 +1,77 @@
+uuid: 7811b90b-d2be-4394-b23b-d911a1fbb96f
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.field.node.player.field_birth_date
+    - field.field.node.player.field_first_name
+    - field.field.node.player.field_jersey_number
+    - field.field.node.player.field_last_name
+    - field.field.node.player.field_national_matches
+    - field.field.node.player.field_position
+    - node.type.player
+  module:
+    - datetime
+id: node.player.default
+targetEntityType: node
+bundle: player
+mode: default
+content:
+  field_birth_date:
+    type: datetime_default
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_first_name:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_jersey_number:
+    type: number
+    weight: 4
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_last_name:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_national_matches:
+    type: number
+    weight: 5
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_position:
+    type: options_select
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

@@ -1,0 +1,33 @@
+uuid: fade780c-b863-44de-9ad8-84eff5d2d63f
+langcode: nb
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.player.field_birth_date
+    - field.field.node.player.field_first_name
+    - field.field.node.player.field_jersey_number
+    - field.field.node.player.field_last_name
+    - field.field.node.player.field_national_matches
+    - field.field.node.player.field_position
+    - node.type.player
+  module:
+    - user
+id: node.player.teaser
+targetEntityType: node
+bundle: player
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_birth_date: true
+  field_first_name: true
+  field_jersey_number: true
+  field_last_name: true
+  field_national_matches: true
+  field_position: true
+  langcode: true

@@ -1,0 +1,22 @@
+uuid: 36c1a3e2-9b7e-493a-9c64-3162dc98fd21
+langcode: nb
+status: true
+dependencies:
+  config:
+    - node.type.player
+id: node.player.promote
+field_name: promote
+entity_type: node
+bundle: player
+label: 'Vis på forsiden'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: På
+  off_label: Av
+field_type: boolean

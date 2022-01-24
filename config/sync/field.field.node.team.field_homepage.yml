@@ -1,0 +1,23 @@
+uuid: 90262be8-ddba-4215-a775-228bea429694
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_homepage
+    - node.type.team
+  module:
+    - link
+id: node.team.field_homepage
+field_name: field_homepage
+entity_type: node
+bundle: team
+label: Hjemmeside
+description: 'Klubbens hjemmeside'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 16
+field_type: link

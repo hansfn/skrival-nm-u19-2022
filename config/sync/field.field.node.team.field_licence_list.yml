@@ -1,0 +1,27 @@
+uuid: 86043a9d-65f5-40b3-bc88-667b840adf63
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_licence_list
+    - node.type.team
+  module:
+    - file
+id: node.team.field_licence_list
+field_name: field_licence_list
+entity_type: node
+bundle: team
+label: Lisensoversikt
+description: 'En PDF-fil med lisensoversikt hentet ut fra Sportsadmin (SA).'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: false
+field_type: file

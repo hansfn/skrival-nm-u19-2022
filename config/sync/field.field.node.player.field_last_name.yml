@@ -1,0 +1,19 @@
+uuid: 84c6e18d-7032-42d8-98d9-3cee67d18c5f
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_last_name
+    - node.type.player
+id: node.player.field_last_name
+field_name: field_last_name
+entity_type: node
+bundle: player
+label: Etternavn
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

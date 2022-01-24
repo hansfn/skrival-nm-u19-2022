@@ -1,0 +1,11 @@
+uuid: 365b507e-fb8d-4220-8064-abee9969bb40
+langcode: nb
+status: true
+dependencies:
+  config:
+    - node.type.team
+id: node.team
+target_entity_type_id: node
+target_bundle: team
+default_langcode: site_default
+language_alterable: false

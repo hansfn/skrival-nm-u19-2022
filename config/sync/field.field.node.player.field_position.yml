@@ -1,0 +1,21 @@
+uuid: 7ba0bcd1-674c-4ab2-a486-f62fa9183d98
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_position
+    - node.type.player
+  module:
+    - options
+id: node.player.field_position
+field_name: field_position
+entity_type: node
+bundle: player
+label: Posisjon
+description: 'Hovedposisjon for spilleren.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

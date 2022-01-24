@@ -1,0 +1,21 @@
+uuid: 4e250221-e04a-4cdc-bf9a-8bdb992a0129
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_desc
+    - node.type.team
+  module:
+    - text
+id: node.team.field_desc
+field_name: field_desc
+entity_type: node
+bundle: team
+label: Beskrivelse
+description: 'Informasjon om hjemstedet og klubben.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

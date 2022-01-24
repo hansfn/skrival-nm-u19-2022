@@ -1,0 +1,51 @@
+uuid: a742e0ee-eec1-4cf1-997c-c36bd5c5ac2e
+langcode: nb
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.team.field_ass_coach
+    - field.field.node.team.field_class
+    - field.field.node.team.field_coach
+    - field.field.node.team.field_desc
+    - field.field.node.team.field_former_results
+    - field.field.node.team.field_group
+    - field.field.node.team.field_homepage
+    - field.field.node.team.field_licence_list
+    - field.field.node.team.field_players
+    - field.field.node.team.field_profixio_link
+    - field.field.node.team.field_referee
+    - field.field.node.team.field_referee_level
+    - field.field.node.team.field_seeding
+    - field.field.node.team.field_team_leader
+    - field.field.node.team.field_team_picture
+    - node.type.team
+  module:
+    - user
+id: node.team.teaser
+targetEntityType: node
+bundle: team
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_ass_coach: true
+  field_class: true
+  field_coach: true
+  field_desc: true
+  field_former_results: true
+  field_group: true
+  field_homepage: true
+  field_licence_list: true
+  field_players: true
+  field_profixio_link: true
+  field_referee: true
+  field_referee_level: true
+  field_seeding: true
+  field_team_leader: true
+  field_team_picture: true
+  langcode: true

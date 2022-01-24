@@ -1,0 +1,20 @@
+uuid: e31dd741-0ca2-49d3-855b-98a69c9acf81
+langcode: nb
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_seeding
+field_name: field_seeding
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

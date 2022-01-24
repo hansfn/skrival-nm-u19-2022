@@ -1,0 +1,24 @@
+uuid: ae5375ac-73fb-441f-99a4-2f466786c951
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_birth_date
+    - node.type.player
+  module:
+    - datetime
+id: node.player.field_birth_date
+field_name: field_birth_date
+entity_type: node
+bundle: player
+label: Fødselsdato
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    default_date_type: relative
+    default_date: '-19 years'
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,21 @@
+uuid: a224871c-515f-41d7-8257-fc8be658fc2b
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_class
+    - node.type.team
+  module:
+    - options
+id: node.team.field_class
+field_name: field_class
+entity_type: node
+bundle: team
+label: Klasse
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

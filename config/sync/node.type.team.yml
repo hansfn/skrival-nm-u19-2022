@@ -1,0 +1,17 @@
+uuid: 6a2e4215-1bd1-46ba-acab-580198ae0ca0
+langcode: nb
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Lag
+type: team
+description: 'Et lag med spillere, støttepersonell og annen metadata.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

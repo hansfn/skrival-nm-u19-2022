@@ -1,0 +1,17 @@
+uuid: 65e1f695-d20f-4adb-bf87-0f5d8389d24f
+langcode: nb
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Spiller
+type: player
+description: 'En spiller tilhørende et deltagende lag.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
