@@ -1,0 +1,29 @@
+uuid: b14848c8-d5d2-45fc-9350-a560a5f6910c
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_licence_list
+    - media.type.document
+    - node.type.team
+id: node.team.field_licence_list
+field_name: field_licence_list
+entity_type: node
+bundle: team
+label: Lisensoversikt
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      document: document
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,20 @@
+uuid: ca36a55d-341f-4eb8-8dc4-d928e69ababd
+langcode: nb
+status: true
+dependencies:
+  module:
+    - media
+    - node
+id: node.field_licence_list
+field_name: field_licence_list
+entity_type: node
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

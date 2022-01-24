@@ -12,12 +12,14 @@ dependencies:
     - field.field.node.team.field_former_results
     - field.field.node.team.field_group
     - field.field.node.team.field_homepage
+    - field.field.node.team.field_licence_list
     - field.field.node.team.field_players
     - field.field.node.team.field_profixio_link
     - field.field.node.team.field_referee
     - field.field.node.team.field_referee_level
     - field.field.node.team.field_seeding
     - field.field.node.team.field_team_leader
+    - field.field.node.team.field_team_picture
     - node.type.team
   module:
     - link
@@ -101,6 +103,15 @@ content:
     third_party_settings: {  }
     weight: 109
     region: content
+  field_licence_list:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 120
+    region: content
   field_players:
     type: entity_reference_label
     label: above
@@ -152,6 +163,15 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     weight: 111
+    region: content
+  field_team_picture:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 119
     region: content
   links:
     settings: {  }

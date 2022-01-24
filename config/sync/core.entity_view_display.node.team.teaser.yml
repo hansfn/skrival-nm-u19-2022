@@ -13,12 +13,14 @@ dependencies:
     - field.field.node.team.field_former_results
     - field.field.node.team.field_group
     - field.field.node.team.field_homepage
+    - field.field.node.team.field_licence_list
     - field.field.node.team.field_players
     - field.field.node.team.field_profixio_link
     - field.field.node.team.field_referee
     - field.field.node.team.field_referee_level
     - field.field.node.team.field_seeding
     - field.field.node.team.field_team_leader
+    - field.field.node.team.field_team_picture
     - node.type.team
   module:
     - user
@@ -42,10 +44,12 @@ hidden:
   field_former_results: true
   field_group: true
   field_homepage: true
+  field_licence_list: true
   field_players: true
   field_profixio_link: true
   field_referee: true
   field_referee_level: true
   field_seeding: true
   field_team_leader: true
+  field_team_picture: true
   langcode: true
