@@ -260,7 +260,7 @@ display:
               authenticated: authenticated
           is_grouped: true
           group_info:
-            label: Published
+            label: Publisert
             description: ''
             identifier: status
             optional: true
@@ -271,11 +271,11 @@ display:
             default_group_multiple: {  }
             group_items:
               1:
-                title: Published
+                title: Publisert
                 operator: '='
                 value: '1'
               2:
-                title: Unpublished
+                title: Upublisert
                 operator: '='
                 value: '0'
         name:
@@ -421,7 +421,7 @@ display:
           exposed: true
           expose:
             operator_id: langcode_op
-            label: Language
+            label: Språk
             description: ''
             use_operator: false
             operator: langcode_op
@@ -1152,7 +1152,7 @@ display:
           entity_type: media
           entity_field: uid
           plugin_id: field
-          label: Author
+          label: Forfatter
           type: entity_reference_label
           settings:
             link: true
