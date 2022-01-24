@@ -6,6 +6,8 @@ dependencies:
     - filter.format.basic_html
   module:
     - comment
+    - commerce_order
+    - commerce_payment
     - contact
     - filter
     - media
@@ -23,8 +25,10 @@ permissions:
   - 'access content'
   - 'access shortcuts'
   - 'access site-wide contact form'
+  - 'manage own commerce_payment_method'
   - 'post comments'
   - 'search content'
   - 'skip comment approval'
   - 'use text format basic_html'
   - 'view media'
+  - 'view own commerce_order'

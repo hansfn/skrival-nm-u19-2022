@@ -21,6 +21,7 @@
         "cweagans/composer-patches": "^1.7",
         "drupal/auto_entitylabel": "^3.0@beta",
         "drupal/coffee": "^1.2",
+        "drupal/commerce_vipps": "^4.0@beta",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-recommended": "^9.3",
         "drupal/pathauto": "^1.8",
