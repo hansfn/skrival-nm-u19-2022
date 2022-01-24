@@ -1,22 +1,22 @@
-uuid: 37d442dc-8574-477d-a520-73bc072cc9f5
+uuid: a18d9abb-2942-471d-9a30-2b0c90c72796
 langcode: nb
 status: true
 dependencies:
   module:
     - node
-id: team
-label: Lag
+id: player
+label: Spiller
 type: 'canonical_entities:node'
-pattern: 'lag/[node:field_class]/[node:field_club_short]'
+pattern: 'spiller/[node:title]'
 selection_criteria:
-  fd1e3530-30df-4a1b-b6ca-3e48af8dbbd3:
+  dcc34c7c-1d68-48d2-8fa4-9b02ad5a25dc:
     id: node_type
     negate: false
-    uuid: fd1e3530-30df-4a1b-b6ca-3e48af8dbbd3
+    uuid: dcc34c7c-1d68-48d2-8fa4-9b02ad5a25dc
     context_mapping:
       node: node
     bundles:
-      team: team
+      player: player
 selection_logic: and
 weight: -5
 relationships: {  }
