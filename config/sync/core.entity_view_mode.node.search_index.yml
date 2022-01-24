@@ -1,0 +1,12 @@
+uuid: 7bf34975-6c66-4d81-b788-79234bd06035
+langcode: nb
+status: false
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: fVFfJv_GzBRE-wpRHbfD5a3VjnhbEOXG6lvRd3uaccY
+id: node.search_index
+label: Søkeindeks
+targetEntityType: node
+cache: true

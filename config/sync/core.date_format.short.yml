@@ -1,0 +1,10 @@
+uuid: f784b0bd-49e5-4d56-927c-e549fbd5a40a
+langcode: nb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: AlzeyytA8InBgxIG9H2UDJYs3CG98Zj6yRsDKmlbZwA
+id: short
+label: 'Stadard kort dato'
+locked: false
+pattern: 'd.m.Y  H:i'

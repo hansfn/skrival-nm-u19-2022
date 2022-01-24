@@ -1,0 +1,10 @@
+uuid: e111d173-e8a8-4bdf-b24c-53ce037c9d64
+langcode: nb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: yoNVreoTdTZTY7GuE8fI9Jmxqdz8vlo4ZJKixMNSosw
+name: Stikkord
+vid: tags
+description: 'Bruk stikkord for å gruppere artikler om samme emne i kategorier.'
+weight: 0

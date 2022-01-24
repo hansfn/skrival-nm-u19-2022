@@ -1,0 +1,88 @@
+uuid: 1ec5f0a3-3520-47d9-a248-3ed30d020222
+langcode: nb
+status: true
+dependencies:
+  module:
+    - views_ui
+_core:
+  default_config_hash: XIYL1KF7ND2XQRa5AxvEcp8vgCN2kUGiuBNhCgxrPME
+id: views-ui
+label: 'Vis redigeringsside'
+module: views_ui
+routes:
+  -
+    route_name: entity.view.edit_form
+  -
+    route_name: entity.view.edit_display_form
+tips:
+  views-main:
+    id: views-main
+    plugin: text
+    label: 'Rediger innstillinger for visning'
+    weight: 1
+    body: 'Vis eller rediger konfigurasjonen'
+  views-ui-displays:
+    id: views-ui-displays
+    plugin: text
+    label: 'Vis i visning'
+    weight: 2
+    selector: '#views-display-top'
+    body: 'En fremvisning er en måte å vise resultatene på, for eksempel som en side eller en blokk. En visning kan inneholde flere fremvisninger, som er oppført her. Den aktive fremvisningen er uthevet.'
+  views-ui-view-admin:
+    id: views-ui-view-admin
+    plugin: text
+    label: 'Vis administrasjon'
+    weight: 3
+    position: right
+    selector: '#views-display-extra-actions'
+    body: 'Utfør administrative oppgaver, inkludert å legge til beskrivelse og lage en kopi/klone. Klikk på rullegardin-knappen for å vise alternativene som er tilgjengelige.'
+  views-ui-format:
+    id: views-ui-format
+    plugin: text
+    label: Visningsformat
+    weight: 4
+    selector: .views-ui-display-tab-bucket.format
+    body: 'Velg hvordan resultater skal vises. F.eks velg <em>Innhold</em> for å vise et komplett element, ved hjelp av de konfigurerte innstillingene for fremvisningen. Eller velg <em>Felt</em>, som lar deg vise enkelte felt for hvert resultat. Andre formater kan legges ved å installere moduler for å <em>utvide</em> basisfunksjonaliteten i Drupal.'
+  views-ui-fields:
+    id: views-ui-fields
+    plugin: text
+    label: Felt
+    weight: 5
+    selector: .views-ui-display-tab-bucket.field
+    body: 'Hvis denne visningen bruker felt, er de oppført her. Du kan klikke på et felt for å konfigurere det.'
+  views-ui-filter:
+    id: views-ui-filter
+    plugin: text
+    label: 'Filtrer visningen'
+    weight: 6
+    selector: .views-ui-display-tab-bucket.filter
+    body: 'Legg til filtre for å begrense resultatene som vises. F.eks kan du vise kun innhold som er <em>publisert</em>, ved å legge til et filter for <em>Publisert</em> og velge <em>Ja</em>.'
+  views-ui-filter-operations:
+    id: views-ui-filter-operations
+    plugin: text
+    label: Filterhandlinger
+    weight: 7
+    selector: '.views-ui-display-tab-bucket.filter .dropbutton-widget'
+    body: 'Legge til, flytte eller fjerne filtre.'
+  views-ui-sorts:
+    id: views-ui-sorts
+    plugin: text
+    label: Sorteringskriterium
+    weight: 8
+    selector: .views-ui-display-tab-bucket.sort
+    body: 'Kontroller rekkefølgen for resultatene som vises. Klikk på en aktiv sorteringsregel for å konfigurere den.'
+  views-ui-sorts-operations:
+    id: views-ui-sorts-operations
+    plugin: text
+    label: Sorteringshandlinger
+    weight: 9
+    selector: '.views-ui-display-tab-bucket.sort .dropbutton-widget'
+    body: 'Legge til, flytte eller fjerne sorteringsregler.'
+  views-ui-preview:
+    id: views-ui-preview
+    plugin: text
+    label: Forhåndsvisning
+    weight: 10
+    position: right
+    selector: '#preview-submit'
+    body: 'Se forhåndsvisning av resultatet for visningen.'

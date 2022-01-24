@@ -1,0 +1,13 @@
+uuid: acb0fa15-80dc-49b7-8b15-d80120c5e2f0
+langcode: nb
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: nvrL9bFilzBvm2bjO9rQnFDpBA7dBBUjShSSt6NS-DU
+id: user_cancel_user_action
+label: 'Annuller de valgte brukerkontoene'
+type: user
+plugin: user_cancel_user_action
+configuration: {  }

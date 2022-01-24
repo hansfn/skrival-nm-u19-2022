@@ -1,0 +1,13 @@
+uuid: 8b89cda9-a38b-4f44-a995-14dc8a718d35
+langcode: nb
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: LhdsoZPL_pFas2fjaAWue4zvrQ_tEVofLYtcNec-JGM
+id: node_save_action
+label: 'Lagre innholdstypen'
+type: node
+plugin: 'entity:save_action:node'
+configuration: {  }

@@ -1,0 +1,10 @@
+uuid: 9143da47-dc26-41da-9d80-6dc243342772
+langcode: nb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: zglzjmYxi0G0ag9MZ02y0LSJOdpWRwJxyP_OvFojFyo
+id: basic
+label: 'Enkel blokk'
+revision: 0
+description: 'En enkel blokk inneholder tittel og brødtekst.'

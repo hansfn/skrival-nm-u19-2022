@@ -1,0 +1,48 @@
+uuid: d9508bae-ce2d-431c-9d2c-4bdd9ab3da82
+langcode: nb
+status: true
+dependencies:
+  module:
+    - block
+_core:
+  default_config_hash: DI2aQ7IbaYrwUfiwSn-3g-ANh_t7LzQ1JkRqd1ujgFs
+id: block-layout
+label: 'Block Layout Page'
+module: block
+routes:
+  -
+    route_name: block.admin_display
+tips:
+  block-layout:
+    id: block-layout
+    plugin: text
+    label: 'Block Layout'
+    weight: 1
+    body: 'Blocks are boxes of content rendered into an area, or region, of a web page that can be displayed in regions (such as footer or sidebar) on your page.'
+  place-block:
+    id: place-block
+    plugin: text
+    label: 'Plasser blokker'
+    weight: 2
+    selector: .button--small
+    body: 'Any custom or contributed block can be added to a particular region by clicking on a button Place block. A new block can also be created by clicking on Place Block'
+  block-region:
+    id: block-region
+    plugin: text
+    label: 'Block Region'
+    weight: 3
+    selector: .block-region-select
+    body: 'Assign or change the region of a block by clicking here. A dropdown list with all the regions will appear.You can place one block in multiple regions.'
+  configure-block:
+    id: configure-block
+    plugin: text
+    label: 'Configure Block'
+    weight: 4
+    selector: .dropbutton-widget
+    body: 'By Clicking on "Configure" you can go ahead and edit the contents of the block, deal with the visibility settings and even change the placement of where it is on your theme.'
+  custom-block-library:
+    id: custom-block-library
+    plugin: text
+    label: 'Egendefinert blokk-bibliotek'
+    weight: 5
+    body: 'Skjermbildet for blokkadministrasjon har i tillegg en fane som brukes til å legge til egendefinerte blokker. Navnet på fanen er "Bibliotek med egendefinerte blokker". Denne fanen gir en lenke til en side hvor du kan legge til egendefinerte blokker.'

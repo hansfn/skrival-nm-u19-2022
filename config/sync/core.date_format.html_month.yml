@@ -1,0 +1,10 @@
+uuid: 17c4b659-a828-45c5-ba52-bcfdd310ed1d
+langcode: nb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Z7KuCUwM_WdTNvLcoltuX3_8d-s-8FZkTN6KgNwF0eM
+id: html_month
+label: 'HTML måned'
+locked: true
+pattern: Y-m

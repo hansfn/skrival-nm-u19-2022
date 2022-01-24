@@ -1,0 +1,13 @@
+uuid: edc32405-b791-43fd-ad19-c872caf25701
+langcode: nb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: AeW1SEDgb1OTQACAWGhzvMknMYAJlcZu0jljfeU3oso
+name: Artikkel
+type: article
+description: 'Bruk <em>artikler</em> for tidssensitivt innhold som nyheter, pressemeldinger eller blogginnlegg.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

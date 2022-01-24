@@ -1,0 +1,48 @@
+uuid: 7fe35471-515e-4801-a53e-dcacbef826be
+langcode: nb
+status: true
+dependencies:
+  module:
+    - language
+_core:
+  default_config_hash: gjYvYwMqulNsq7VmScWKOqEUxar9AX0TvG8vfCCguUQ
+id: language-edit
+label: 'Rediger språk'
+module: language
+routes:
+  -
+    route_name: entity.configurable_language.edit_form
+tips:
+  language-edit-overview:
+    id: language-edit-overview
+    plugin: text
+    label: 'Rediger språk'
+    weight: 1
+    body: '<p>Denne sidenlar deg redigere et språk på nettstedet ditt, inkludert egendefinerte språk.</p>'
+  language-edit-langcode:
+    id: language-edit-langcode
+    plugin: text
+    label: Språkkode
+    weight: 2
+    selector: '#edit-langcode-view'
+    body: '<p>Du kan ikke endre koden til et språk på nettstedet, siden det brukes av systemet til å holde styr på språket.</p>'
+  language-edit-label:
+    id: language-edit-label
+    plugin: text
+    label: Språk
+    weight: 3
+    selector: '#edit-label'
+    body: '<p>Språknavnet er brukt gjennomgående for nettstedet for alle brukere, og er skrevet på engelsk. Navn på innebygde språk kan oversettes med modulen brukergrensesnittoversettelse, og navnene på både innebygde og egendefinerte språk kan oversettes ved hjelp av modulen konfigurasjonsoversettelse.</p>'
+  language-edit-direction:
+    id: language-edit-direction
+    plugin: text
+    label: Språkretning
+    weight: 4
+    selector: '#edit-direction--wrapper--description'
+    body: '<p>Velg om skriveretning for språket er «venstre til høyre» eller «høyre til venstre».</p><p>Merk at ikke alle visningsmaler støtter «høyre til venstre»-oppsett, så test visningsmalen hvis du bruker «høyre til venstre».</p>'
+  language-edit-continue:
+    id: language-edit-continue
+    plugin: text
+    label: 'Fortsetter på'
+    weight: 5
+    body: "<p>Nå\_som du har oversikt over funksjonen «Legg til språk», kan du fortsette med å:<ul><li>Redigere et språk</li><li><a href=\"[site:url]admin/config/regional/language\">Vise språkene som er konfigurert</a></li></ul></p>"

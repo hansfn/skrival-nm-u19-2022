@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: nb
+uuid: 3ccaa6ed-e28a-4da9-b993-5125229986f7
+name: 'NM U19 2022'
+mail: hansfn+u19nm2022@gmail.com
+slogan: 'NM i volleyball for U19 i Molde - 2022'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: nb

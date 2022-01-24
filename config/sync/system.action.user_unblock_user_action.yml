@@ -1,0 +1,13 @@
+uuid: 64fc0408-b44f-4de7-8442-fa0d6315666c
+langcode: nb
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: SPsUXsR3Rc8d1y3gewzaAKWa1ncea_ywXX3f7LTn7k0
+id: user_unblock_user_action
+label: 'Avblokker de valgte brukerne'
+type: user
+plugin: user_unblock_user_action
+configuration: {  }

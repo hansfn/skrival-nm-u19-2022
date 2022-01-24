@@ -1,0 +1,34 @@
+uuid: 0021a6be-b51f-4459-8444-7d5060a0c38b
+langcode: nb
+status: true
+dependencies:
+  module:
+    - language
+_core:
+  default_config_hash: vcDd9H0uIlyOQGoVAJuD3ADMnQeRR_X3B-ojyb8Cbnc
+id: language-add
+label: 'Legge til språk'
+module: language
+routes:
+  -
+    route_name: language.add
+tips:
+  language-add-overview:
+    id: language-add-overview
+    plugin: text
+    label: 'Legge til språk'
+    weight: 1
+    body: '<p> Denne siden lar deg legge til vanlige språk på nettstedet.</p> <p>Hvis språket du vil bruke ikke er tilgjengelig, kan du legge til et egendefinert språk.</p>'
+  language-add-choose:
+    id: language-add-choose
+    plugin: text
+    label: 'Velg språk'
+    weight: 2
+    selector: '#edit-predefined-langcode'
+    body: '<p>Velg et språk fra listen, eller velg «Egendefinert språk…» på slutten av listen.</p><p>Klikk på «Legg til språk»-knappen når du har valgt ønsket språk.</p><p>Når du legger et egendefinert språk, vil du se et tilleggs-skjema der du kan oppgi navn, kode og skriveretning for språket.</p>'
+  language-add-continue:
+    id: language-add-continue
+    plugin: text
+    label: 'Fortsetter på'
+    weight: 3
+    body: "<p>Nå\_som du har oversikt over funksjonen «Legg til språk», kan du fortsette med å:<ul><li>Legge til et språk</li><li>Legge til et egendefinert språk</li><li><a href=\"[site:url]admin/config/regional/language\">Vise språkene som er konfigurert</a></li></ul></p>"

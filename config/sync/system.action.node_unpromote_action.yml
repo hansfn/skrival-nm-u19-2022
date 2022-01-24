@@ -1,0 +1,13 @@
+uuid: a9ecbf08-bd62-474f-a7d4-3e4f86834be7
+langcode: nb
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: JBptjnfuOMtsdKygklXxoOgeOCTMtQxlkymjnnj-cC0
+id: node_unpromote_action
+label: 'Fjern fra forsiden'
+type: node
+plugin: node_unpromote_action
+configuration: {  }
