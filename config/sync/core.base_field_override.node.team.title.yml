@@ -1,0 +1,18 @@
+uuid: dd9a34ef-5288-4c35-bc52-0d622e255d5c
+langcode: nb
+status: true
+dependencies:
+  config:
+    - node.type.team
+id: node.team.title
+field_name: title
+entity_type: node
+bundle: team
+label: Lagnavn
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
