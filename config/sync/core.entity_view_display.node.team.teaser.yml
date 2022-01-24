@@ -6,6 +6,8 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.team.field_ass_coach
     - field.field.node.team.field_class
+    - field.field.node.team.field_club
+    - field.field.node.team.field_club_short
     - field.field.node.team.field_coach
     - field.field.node.team.field_desc
     - field.field.node.team.field_former_results
@@ -35,6 +37,8 @@ content:
 hidden:
   field_ass_coach: true
   field_class: true
+  field_club: true
+  field_club_short: true
   field_coach: true
   field_desc: true
   field_former_results: true

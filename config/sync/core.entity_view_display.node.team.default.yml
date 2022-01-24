@@ -5,6 +5,8 @@ dependencies:
   config:
     - field.field.node.team.field_ass_coach
     - field.field.node.team.field_class
+    - field.field.node.team.field_club
+    - field.field.node.team.field_club_short
     - field.field.node.team.field_coach
     - field.field.node.team.field_desc
     - field.field.node.team.field_former_results
@@ -45,6 +47,22 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 115
+    region: content
+  field_club:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 117
+    region: content
+  field_club_short:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 118
     region: content
   field_coach:
     type: string

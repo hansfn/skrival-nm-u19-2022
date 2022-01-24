@@ -13,10 +13,10 @@ settings:
   allowed_values:
     -
       value: male
-      label: Gutter
+      label: G19
     -
       value: female
-      label: Jenter
+      label: J19
   allowed_values_function: ''
 module: options
 locked: false
