@@ -1,18 +1,19 @@
-uuid: d669b61a-8490-4bb8-9f41-848de07643fe
+uuid: 1c62042c-0ea6-4a62-a261-1dc0aee9cf21
 langcode: nb
 status: true
 dependencies:
   module:
     - node
-id: node.field_players
-field_name: field_players
+id: node.field_reach
+field_name: field_reach
 entity_type: node
-type: entity_reference
+type: integer
 settings:
-  target_type: node
+  unsigned: false
+  size: normal
 module: core
 locked: false
-cardinality: -1
+cardinality: 1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

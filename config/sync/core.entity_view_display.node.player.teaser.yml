@@ -6,10 +6,12 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.player.field_birth_date
     - field.field.node.player.field_first_name
+    - field.field.node.player.field_height
     - field.field.node.player.field_jersey_number
     - field.field.node.player.field_last_name
     - field.field.node.player.field_national_matches
     - field.field.node.player.field_position
+    - field.field.node.player.field_reach
     - node.type.player
   module:
     - user
@@ -26,8 +28,10 @@ content:
 hidden:
   field_birth_date: true
   field_first_name: true
+  field_height: true
   field_jersey_number: true
   field_last_name: true
   field_national_matches: true
   field_position: true
+  field_reach: true
   langcode: true

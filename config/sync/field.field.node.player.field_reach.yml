@@ -1,0 +1,23 @@
+uuid: caef45c4-f063-4ae4-8cb4-f98c8c260293
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_reach
+    - node.type.player
+id: node.player.field_reach
+field_name: field_reach
+entity_type: node
+bundle: player
+label: Rekkevidde
+description: 'Smash-rekkevidde, ikke blokk- eller stående rekkevidde.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 200
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer
