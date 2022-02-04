@@ -1,0 +1,24 @@
+uuid: 767cd8f9-b3b2-4e2c-b424-844ea09f7914
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_phone
+  module:
+    - user
+id: user.user.field_phone
+field_name: field_phone
+entity_type: user
+bundle: user
+label: Mobil
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 10000000
+  max: 99999999
+  prefix: ''
+  suffix: ''
+field_type: integer

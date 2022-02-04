@@ -19,7 +19,6 @@ dependencies:
     - field.field.node.team.field_referee
     - field.field.node.team.field_referee_level
     - field.field.node.team.field_seeding
-    - field.field.node.team.field_team_leader
     - field.field.node.team.field_team_picture
     - node.type.team
   module:
@@ -50,6 +49,5 @@ hidden:
   field_referee: true
   field_referee_level: true
   field_seeding: true
-  field_team_leader: true
   field_team_picture: true
   langcode: true

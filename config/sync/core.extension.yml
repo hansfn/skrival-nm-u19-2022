@@ -28,6 +28,7 @@ module:
   dblog: 0
   dynamic_page_cache: 0
   editor: 0
+  email_registration: 0
   entity: 0
   entity_reference_revisions: 0
   field: 0
@@ -39,6 +40,7 @@ module:
   image: 0
   inline_entity_form: 0
   language: 0
+  layout_discovery: 0
   link: 0
   locale: 0
   media: 0
@@ -52,6 +54,7 @@ module:
   path_alias: 0
   profile: 0
   rdf: 0
+  realname: 0
   search: 0
   shortcut: 0
   state_machine: 0
@@ -64,6 +67,7 @@ module:
   update: 0
   user: 0
   views_ui: 0
+  ds: 1
   pathauto: 1
   views: 10
   standard: 1000

@@ -18,7 +18,6 @@ dependencies:
     - field.field.node.team.field_referee
     - field.field.node.team.field_referee_level
     - field.field.node.team.field_seeding
-    - field.field.node.team.field_team_leader
     - field.field.node.team.field_team_picture
     - node.type.team
   module:
@@ -155,14 +154,6 @@ content:
       prefix_suffix: true
     third_party_settings: {  }
     weight: 116
-    region: content
-  field_team_leader:
-    type: string
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    weight: 111
     region: content
   field_team_picture:
     type: entity_reference_entity_view

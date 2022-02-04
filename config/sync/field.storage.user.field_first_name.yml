@@ -1,12 +1,12 @@
-uuid: 311dcda6-72b9-4b6a-8821-1769e147c546
+uuid: 73dfab07-f8c4-4b9e-9392-521e5a314604
 langcode: nb
 status: true
 dependencies:
   module:
-    - node
-id: node.field_team_leader
-field_name: field_team_leader
-entity_type: node
+    - user
+id: user.field_first_name
+field_name: field_first_name
+entity_type: user
 type: string
 settings:
   max_length: 255
