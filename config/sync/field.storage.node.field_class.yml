@@ -12,10 +12,10 @@ type: list_string
 settings:
   allowed_values:
     -
-      value: male
+      value: g19
       label: G19
     -
-      value: female
+      value: j19
       label: J19
   allowed_values_function: ''
 module: options

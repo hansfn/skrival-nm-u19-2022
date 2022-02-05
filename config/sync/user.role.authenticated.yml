@@ -4,6 +4,10 @@ status: true
 dependencies:
   config:
     - filter.format.basic_html
+    - media.type.document
+    - media.type.image
+    - node.type.player
+    - node.type.team
   module:
     - comment
     - commerce_order
@@ -11,6 +15,7 @@ dependencies:
     - contact
     - filter
     - media
+    - node
     - search
     - shortcut
     - system
@@ -25,6 +30,19 @@ permissions:
   - 'access content'
   - 'access shortcuts'
   - 'access site-wide contact form'
+  - 'create document media'
+  - 'create image media'
+  - 'create media'
+  - 'create player content'
+  - 'create team content'
+  - 'delete media'
+  - 'delete own document media'
+  - 'delete own image media'
+  - 'delete own player content'
+  - 'edit own document media'
+  - 'edit own image media'
+  - 'edit own player content'
+  - 'edit own team content'
   - 'manage own commerce_payment_method'
   - 'post comments'
   - 'search content'

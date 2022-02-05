@@ -1,22 +1,22 @@
-uuid: a18d9abb-2942-471d-9a30-2b0c90c72796
+uuid: 7b17e00f-3749-43c8-ae45-c7c73732cc80
 langcode: nb
 status: true
 dependencies:
   module:
     - node
-id: player
-label: Spiller
+id: news
+label: Nyhet
 type: 'canonical_entities:node'
-pattern: 'spiller/[node:title]-[node:field_birth_date:date:html_year]'
+pattern: 'nyhet/[node:created:html_date]/[node:title]'
 selection_criteria:
-  b66f4c2d-013a-48f7-b0cc-c336a6d6f292:
+  6325eb4d-53ac-4401-b75d-a2087c3f6d76:
     id: node_type
     negate: false
-    uuid: b66f4c2d-013a-48f7-b0cc-c336a6d6f292
+    uuid: 6325eb4d-53ac-4401-b75d-a2087c3f6d76
     context_mapping:
       node: node
     bundles:
-      player: player
+      article: article
 selection_logic: and
 weight: -5
 relationships: {  }
