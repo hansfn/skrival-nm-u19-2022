@@ -23,6 +23,7 @@ module:
   config: 0
   contact: 0
   contextual: 0
+  csv_serialization: 0
   ctools: 0
   datetime: 0
   dblog: 0
@@ -43,6 +44,7 @@ module:
   layout_discovery: 0
   link: 0
   locale: 0
+  masquerade: 0
   media: 0
   media_library: 0
   menu_link_content: 0
@@ -55,7 +57,10 @@ module:
   profile: 0
   rdf: 0
   realname: 0
+  rest: 0
+  rules: 0
   search: 0
+  serialization: 0
   shortcut: 0
   state_machine: 0
   system: 0
@@ -64,8 +69,11 @@ module:
   token: 0
   toolbar: 0
   tour: 0
+  typed_data: 0
   update: 0
   user: 0
+  views_aggregator: 0
+  views_data_export: 0
   views_ui: 0
   ds: 1
   pathauto: 1

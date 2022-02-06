@@ -26,8 +26,12 @@
         "drupal/core-recommended": "^9.3",
         "drupal/ds": "^3.13",
         "drupal/email_registration": "1.x-dev@dev",
+        "drupal/masquerade": "2.x-dev@dev",
         "drupal/pathauto": "^1.8",
         "drupal/realname": "^2.0@beta",
+        "drupal/rules": "^3.0@alpha",
+        "drupal/views_aggregator": "^2.0",
+        "drupal/views_data_export": "^1.1",
         "drush/drush": "^10.6",
         "vlucas/phpdotenv": "^5.1",
         "webflo/drupal-finder": "^1.2"

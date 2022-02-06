@@ -1,0 +1,16 @@
+diff --git a/masquerade.routing.yml b/masquerade.routing.yml
+index 8fe39ee..2e5522d 100644
+--- a/masquerade.routing.yml
++++ b/masquerade.routing.yml
+@@ -24,3 +24,11 @@ masquerade.unmasquerade:
+   requirements:
+     _user_is_masquerading: 'TRUE'
+     _csrf_token: 'TRUE'
++
++masquerade.unmask:
++  path: '/unmask'
++  defaults:
++    _controller: '\Drupal\masquerade\Controller\SwitchController::switchBack'
++    _title: 'Unmasquerade'
++  requirements:
++    _user_is_masquerading: 'TRUE'
