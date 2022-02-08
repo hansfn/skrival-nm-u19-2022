@@ -26,6 +26,7 @@
         "drupal/core-recommended": "^9.3",
         "drupal/ds": "^3.13",
         "drupal/email_registration": "1.x-dev@dev",
+        "drupal/field_permissions": "^1.1",
         "drupal/masquerade": "2.x-dev@dev",
         "drupal/pathauto": "^1.8",
         "drupal/realname": "^2.0@beta",
