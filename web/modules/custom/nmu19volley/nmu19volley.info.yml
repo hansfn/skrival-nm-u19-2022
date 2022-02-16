@@ -1,0 +1,5 @@
+name: NM U19 volleyball
+description: Various modifications used for NM U19 volleyball 2022
+core_version_requirement: ^8 || ^9
+type: module
+# configure: coffee.configuration

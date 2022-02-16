@@ -1,0 +1,26 @@
+order_default_refund:
+  id: order_default_with_refund
+  group: commerce_order
+  label: 'Default, with refund'
+  states:
+    draft:
+      label: Draft
+    completed:
+      label: Completed
+    canceled:
+      label: Canceled
+    refunded:
+      label: Refunded
+  transitions:
+    place:
+      label: 'Place order'
+      from: [draft]
+      to: completed
+    cancel:
+      label: 'Cancel order'
+      from: [draft]
+      to: canceled
+    refund:
+      label: 'Refund order'
+      from: [completed]
+      to: refunded
