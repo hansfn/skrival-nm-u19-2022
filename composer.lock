@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cf2dde6e58cabed845af1d32783ea010",
+    "content-hash": "ed59e3b3db45b3793f2e1dc53e209271",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1673,6 +1673,55 @@
             }
         },
         {
+            "name": "drupal/asset_injector",
+            "version": "2.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/asset_injector.git",
+                "reference": "8.x-2.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/asset_injector-8.x-2.9.zip",
+                "reference": "8.x-2.9",
+                "shasum": "c9c6c94018da7c4bbb8267f62df11774c30ce6f6"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9.0 || ^10.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.9",
+                    "datestamp": "1643764374",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Mike Decker",
+                    "homepage": "https://www.drupal.org/u/pookmish"
+                },
+                {
+                    "name": "Axel Rutz",
+                    "homepage": "https://www.drupal.org/u/axelrutz"
+                }
+            ],
+            "description": "Adds CSS or JS to the page output based on configurable rules.",
+            "homepage": "http://drupal.org/project/asset_injector",
+            "support": {
+                "source": "https://git.drupalcode.org/project/asset_injector",
+                "issues": "https://www.drupal.org/project/issues/asset_injector"
+            }
+        },
+        {
             "name": "drupal/auto_entitylabel",
             "version": "3.0.0-beta4",
             "source": {
@@ -2820,6 +2869,90 @@
                 "source": "http://git.drupal.org/project/ds.git",
                 "issues": "https://www.drupal.org/project/issues/ds",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
+            "name": "drupal/editablefields",
+            "version": "1.0.0-beta2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/editablefields.git",
+                "reference": "1.0.0-beta2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/editablefields-1.0.0-beta2.zip",
+                "reference": "1.0.0-beta2",
+                "shasum": "c68cceafc0da2111eb1f105351d453d469e2cdf8"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.0-beta2",
+                    "datestamp": "1636112282",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Damien Tournoud",
+                    "homepage": "https://www.drupal.org/user/22211"
+                },
+                {
+                    "name": "Island Usurper",
+                    "homepage": "https://www.drupal.org/user/86683"
+                },
+                {
+                    "name": "Jan van Diepen",
+                    "homepage": "https://www.drupal.org/user/195578"
+                },
+                {
+                    "name": "andreiashu",
+                    "homepage": "https://www.drupal.org/user/212904"
+                },
+                {
+                    "name": "bengtan",
+                    "homepage": "https://www.drupal.org/user/132729"
+                },
+                {
+                    "name": "dags",
+                    "homepage": "https://www.drupal.org/user/1248930"
+                },
+                {
+                    "name": "gilmord",
+                    "homepage": "https://www.drupal.org/user/2913239"
+                },
+                {
+                    "name": "joelpittet",
+                    "homepage": "https://www.drupal.org/user/160302"
+                },
+                {
+                    "name": "krlucas",
+                    "homepage": "https://www.drupal.org/user/271780"
+                },
+                {
+                    "name": "markfoodyburton",
+                    "homepage": "https://www.drupal.org/user/114447"
+                },
+                {
+                    "name": "vishun",
+                    "homepage": "https://www.drupal.org/user/199418"
+                }
+            ],
+            "description": "Allows you to make some fields editable from the display.",
+            "homepage": "https://www.drupal.org/project/editablefields",
+            "support": {
+                "source": "https://git.drupalcode.org/project/editablefields"
             }
         },
         {
@@ -13561,6 +13694,7 @@
     "stability-flags": {
         "drupal/auto_entitylabel": 10,
         "drupal/commerce_vipps": 10,
+        "drupal/editablefields": 10,
         "drupal/email_registration": 20,
         "drupal/masquerade": 20,
         "drupal/realname": 10,

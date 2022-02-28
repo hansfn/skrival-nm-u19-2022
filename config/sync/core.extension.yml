@@ -3,6 +3,7 @@ _core:
 langcode: nb
 module:
   address: 0
+  asset_injector: 0
   auto_entitylabel: 0
   automated_cron: 0
   big_pipe: 0
@@ -28,6 +29,7 @@ module:
   datetime: 0
   dblog: 0
   dynamic_page_cache: 0
+  editablefields: 0
   editor: 0
   email_registration: 0
   entity: 0
@@ -51,6 +53,7 @@ module:
   media_library: 0
   menu_link_content: 0
   menu_ui: 0
+  nmu19volley: 0
   node: 0
   options: 0
   page_cache: 0
